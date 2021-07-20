@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> EMVN! </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+
+  <body>
+  	<!-- my NAVBAR Starts here -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="C:\Users\shoap\Desktop\Coding\image/28164621_1797677830298187_5556117159402004909_o.jpg" style="height:50px">
+  </a>
+  	<!-- Links -->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="website 2.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="website 3.html">Contact us</a>
+    </li>
+    <!-- My search-->
+    <form class="form-inline " action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-danger" type="submit">Search</button>
+  </form>
+
+  </ul>
+</nav>
+
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<section> 
+  <br>
+  <h1 style= "text-align: center;">Gallery</h1>
+
+<div class="container">
+  <div class="row">
+  <div class="col">
+    <img src="image/204851215_981576062672700_3669331074753753195_n.jpg" width="330" >
+    <h1>Number 1</h1>
+      <p><p>You, someone who sings fragile things forever
+Wander to find the joy you missed
+Not bothering to tell my heart to forget all of the time
+We love each other by the dry nostalgia on the letters
+It's never been my fault for not hearing the heart's refusal
+Only regret that
+I'm not a muse
+He is also no longer a dream musician
+This situation is as light as the wind
+My heart is full of marks
+This love is fragile
+Broken time, just have to
+Separate innocent days
+Return....</span></p>
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </div>
+       <div class="col">
+    <img src="image/201499177_995753294530447_2857780007518023285_n.jpg" width="330" >
+    <h1>Number 2</h1>
+      <p><p>You, the day you drop your smile on you
+I think I will wait
+And carefree give away all the innocence<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.</span></p> <br> <br> <br>
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </div>
+<div class="col">
+  <img src="image/201009230_525144405585894_6655072285884824212_n.jpg" width="330" >
+  <h2>Number 3</h2>
+      <p>Tomorrow, then I will forget the day I was dumb
+Hope you keep this memory
+Hope you stop drenched on the shoulder sad day
+Mai, the day you stride along the immense life. </span></p> <br> <br> <br> <br> <br> <br> 
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </div>
+      </div>
+      <br>
+      <div class="row">
+  <div class="col">
+    <img src="image/202088976_1152490788595185_4499632676818038059_n.jpg" width="330" >
+    <h1>Number 4</h1>
+      <p><p>Just one thing, please remember
+There is a person who used to love you so dearly
+I'm not a muse<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </div>
+       <div class="col">
+    <img src="image/199750695_330789471850566_6795788427899294198_n.jpg" width="330" >
+    <h1>Number 5</h1>
+      <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum.</span></p>
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </div>
+<div class="col">
+  <img src="C:\Users\shoap\Desktop\Coding\image/75636076_2848387158560577_1856463342697185280_n.jpg" width="330" >
+  <h2>Number 6</h2>
+      <p>He is also no longer a dream musician
+This situation is as light as the wind
+My heart is full of marks. 
+      </span></p> <br> <br> <br> <br> <br> <br> <br> <br> 
+      <button onclick="myFunction()" id="myBtn" class="btn btn-primary">Read more</button>
+      </p> 
+      </div>
+      </div>
+      <br>
+   
+</section> 
+
+<section>
+  <style>
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+</style>
+
+<div class="footer">
+  <p>Coppyright 2021</p>
+  <!-- my icon code-->
+  <style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/EpicMusicVn" class="fa fa-facebook"></a>
+<a href="http://www.youtube.com/epicmusicvn" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/shoapcod123/" class="fa fa-instagram"></a>
+
+      
+</body>
+</div>
+</section>
